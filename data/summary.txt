@@ -1,0 +1,3 @@
+freshman: n=290, effort=6.9h, sleep=8.7h, leisure=8.4h, satisfaction=63.9
+sophomore: n=334, effort=9.6h, sleep=7.7h, leisure=6.7h, satisfaction=70.5
+junior: n=378, effort=13.1h, sleep=6.3h, leisure=4.6h, satisfaction=62.9

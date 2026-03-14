@@ -4,6 +4,7 @@ import { SliderPanel } from './components/SliderPanel';
 import { SatisfactionChart } from './components/SatisfactionChart';
 import { TotalChart } from './components/TotalChart';
 import { ScoreCard } from './components/ScoreCard';
+import { Story } from './components/Story';
 
 function App() {
   const { state, curves, optimals, scores, optimalTotal, setActivity, resetToOptimal } = useDLSO();
@@ -53,6 +54,10 @@ function App() {
             />
             <TotalChart scores={scores} />
           </div>
+        </div>
+
+        <div className="mt-12">
+          <Story />
         </div>
 
         <footer className="text-center text-xs text-slate-600 mt-12">

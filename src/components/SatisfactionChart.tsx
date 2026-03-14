@@ -54,7 +54,7 @@ export function SatisfactionChart({
               fontSize: 12,
             }}
             labelFormatter={(v) => `${v}h`}
-            formatter={(v: number) => [v.toFixed(2), 'Satisfaction']}
+            formatter={(v) => [(v as number).toFixed(2), 'Satisfaction']}
           />
           <Line
             type="monotone"

@@ -43,7 +43,7 @@ export function TotalChart({ scores }: TotalChartProps) {
               borderRadius: '8px',
               fontSize: 12,
             }}
-            formatter={(v: number) => [v.toFixed(2), 'Score']}
+            formatter={(v) => [(v as number).toFixed(2), 'Score']}
           />
           <Bar dataKey="value" radius={[4, 4, 0, 0]} animationDuration={300}>
             {data.map((_, index) => (
